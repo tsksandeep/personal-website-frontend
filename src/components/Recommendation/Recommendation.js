@@ -9,7 +9,7 @@ const Recommendation = () => {
         <section id="recommendation-section">
             <div className="container">
                 <div className="intro">
-                    <h2 className="text-center">RECOMMENDATION</h2>
+                    <h2 className="text-center recommendation-heading">RECOMMENDATION</h2>
                 </div>
                 <div className="row people">
                     <div className="col-md-offset-6 col-lg-offset-4 item">

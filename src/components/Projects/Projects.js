@@ -7,7 +7,7 @@ const Projects = () => {
         <section id="projects-section">
             <div className="container">
                 <div className="heading">
-                    <h2>PROJECTS</h2>
+                    <h2 className="projects-heading">PROJECTS</h2>
                 </div>
                 <div className="row">
                     <div className="col-md-6 col-lg-6">

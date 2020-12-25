@@ -8,10 +8,10 @@ const Skills = () => {
         <section id="skills-section">
             <div className="container">
                 <div className="heading">
-                    <h2>SKILLS</h2>
+                    <h2 className="skills-heading">SKILLS</h2>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-4 custom-skill-col">
                         <div className="card special-skill-item portfolio-info-card border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-android-globe"></i>
                             </div>
@@ -20,33 +20,33 @@ const Skills = () => {
                                 <div className="skills">
                                     <div className="skills-topic">HTML</div>
                                     <div className="progress">
-                                        <div className="progress-bar html-progress"></div>
+                                        <div style={{ width: "80%" }} className="progress-bar html-progress"></div>
                                     </div>
                                     <div className="skills-topic">CSS</div>
                                     <div className="progress">
-                                        <div className="progress-bar css-progress"></div>
+                                        <div style={{ width: "80%" }} className="progress-bar css-progress"></div>
                                     </div>
                                     <div className="skills-topic">JavaScript</div>
                                     <div className="progress">
-                                        <div className="progress-bar js-progress"></div>
+                                        <div style={{ width: "60%" }} className="progress-bar js-progress"></div>
                                     </div>
                                     <div className="skills-topic">React</div>
                                     <div className="progress">
-                                        <div className="progress-bar react-progress"></div>
+                                        <div style={{ width: "60%" }} className="progress-bar react-progress"></div>
                                     </div>
                                     <div className="skills-topic">Python</div>
                                     <div className="progress">
-                                        <div className="progress-bar python-progress"></div>
+                                        <div style={{ width: "80%" }} className="progress-bar python-progress"></div>
                                     </div>
                                     <div className="skills-topic">Go</div>
                                     <div className="progress">
-                                        <div className="progress-bar go-progress"></div>
+                                        <div style={{ width: "80%" }} className="progress-bar go-progress"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-4 custom-skill-col">
                         <div className="card special-skill-item portfolio-info-card border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-android-laptop"></i>
                             </div>
@@ -55,19 +55,17 @@ const Skills = () => {
                                 <div className="skills">
                                     <div className="skills-topic">Shell Script</div>
                                     <div className="progress">
-                                        <div className="progress-bar html-progress" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                                        ><span className="sr-only">80%</span></div>
+                                        <div style={{ width: "60%" }} className="progress-bar html-progress"></div>
                                     </div>
                                     <div className="skills-topic">Yocto</div>
                                     <div className="progress">
-                                        <div className="progress-bar css-progress" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                                        ><span className="sr-only">80%</span></div>
+                                        <div style={{ width: "40%" }} className="progress-bar css-progress"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-4 custom-skill-col">
                         <div className="card special-skill-item portfolio-info-card border-0">
                             <div className="card-header bg-transparent border-0"><i className="icon ion-ios-cloud"></i></div>
                             <div className="card-body">
@@ -75,23 +73,19 @@ const Skills = () => {
                                 <div className="skills">
                                     <div className="skills-topic">AWS</div>
                                     <div className="progress">
-                                        <div className="progress-bar html-progress" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                                        ><span className="sr-only">80%</span></div>
+                                        <div style={{ width: "60%" }} className="progress-bar html-progress"></div>
                                     </div>
                                     <div className="skills-topic">Docker</div>
                                     <div className="progress">
-                                        <div className="progress-bar css-progress" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                                        ><span className="sr-only">80%</span></div>
+                                        <div style={{ width: "60%" }} className="progress-bar css-progress"></div>
                                     </div>
                                     <div className="skills-topic">Kubernetes</div>
                                     <div className="progress">
-                                        <div className="progress-bar js-progress" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                                        ><span className="sr-only">80%</span></div>
+                                        <div style={{ width: "40%" }} className="progress-bar html-progress"></div>
                                     </div>
                                     <div className="skills-topic">Jenkins</div>
                                     <div className="progress">
-                                        <div className="progress-bar react-progress" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                                        ><span className="sr-only">80%</span></div>
+                                        <div style={{ width: "35%" }} className="progress-bar css-progress"></div>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +93,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 

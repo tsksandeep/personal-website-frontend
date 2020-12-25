@@ -25,11 +25,18 @@ input.form-control:focus {
 }
 
 .nav-item:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .navbar-toggler {
   border: none !important;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .nav-item {
+    text-align: left;
+    margin-left:48px;
+  }
 }
 
 @media (max-width: 991px) {

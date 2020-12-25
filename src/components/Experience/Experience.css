@@ -24,3 +24,9 @@
 .role-description {
   text-align: left;
 }
+
+@media (max-width: 768px) {
+  .custom-period {
+    text-align: left;
+  }
+}

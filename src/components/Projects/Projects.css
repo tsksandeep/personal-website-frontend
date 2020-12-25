@@ -3,6 +3,10 @@
   padding: 150px 0 200px 0;
 }
 
+.projects-heading {
+  font-size: 1.4rem;
+}
+
 .project-card-no-image {
   border-radius: 5px;
 }

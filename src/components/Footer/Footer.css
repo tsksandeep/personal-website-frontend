@@ -11,6 +11,7 @@ button:focus {
 }
 
 .contact-heading {
+  font-size: 1.4rem;
   margin-bottom: 50px;
 }
 
@@ -126,5 +127,8 @@ button:focus {
   .footer-menu-item {
     margin-left: 0px;
     margin-right: 15px;
+  }
+  .address-custom {
+    font-size: 18px;
   }
 }

@@ -7,6 +7,10 @@
   margin-bottom: 50px;
 }
 
+.skills-heading {
+  font-size: 1.4rem;
+}
+
 .special-skill-item {
   padding: 20px;
   border-radius: 10px !important;
@@ -27,8 +31,10 @@
   height: 8px;
 }
 
-.progress-bar {
-  width: 60%;
+@media (max-width: 768px) {
+  .custom-skill-col {
+    margin: 40px 10px;
+  }
 }
 
 @media (max-width: 578px) {

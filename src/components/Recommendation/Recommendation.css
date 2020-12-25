@@ -3,6 +3,10 @@
   padding: 150px 0;
 }
 
+.recommendation-heading {
+font-size: 1.4rem;
+}
+
 #recommendation-section .intro {
   margin-bottom: 50px;
 }
@@ -15,11 +19,10 @@
   font-size: 24px;
   font-weight: lighter;
   font-style: italic;
-  padding: 15px;
+  padding: 15px 15px 75px 15px;
   border-radius: 10px;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.075);
   color: white;
-  min-height: 190px;
 }
 
 .recommendation-author {
@@ -33,4 +36,10 @@
 
 .recommendation-author-name {
   margin-top: 10px;
+}
+
+@media (max-width: 576px) {
+  .recommendation-box {
+    margin: 10px;
+  }
 }
