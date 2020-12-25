@@ -1,0 +1,36 @@
+#recommendation-section {
+  font-family: "Roboto", sans-serif;
+  padding: 150px 0;
+}
+
+#recommendation-section .intro {
+  margin-bottom: 50px;
+}
+
+#recommendation-section .description {
+  margin: 0;
+}
+
+.recommendation-box {
+  font-size: 24px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.075);
+  color: white;
+  min-height: 190px;
+}
+
+.recommendation-author {
+  margin-top: -50px;
+}
+
+.recommendation-author-circle {
+  padding: 5px;
+  background-color: white;
+}
+
+.recommendation-author-name {
+  margin-top: 10px;
+}

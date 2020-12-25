@@ -1,0 +1,15 @@
+#projects-section {
+  font-family: "Roboto", sans-serif;
+  padding: 150px 0 200px 0;
+}
+
+.project-card-no-image {
+  border-radius: 5px;
+}
+
+.project-card-no-image:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  z-index: 1;
+  cursor: pointer;
+}

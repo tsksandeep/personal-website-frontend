@@ -1,0 +1,26 @@
+#experience-section {
+  font-family: "Roboto", sans-serif;
+  padding: 150px 0;
+}
+
+.work-experience {
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+.experience-heading {
+  font-weight: 400 !important;
+}
+
+.role {
+  font-weight: 500 !important;
+  text-align: left;
+}
+
+.organization {
+  float: left;
+}
+
+.role-description {
+  text-align: left;
+}
