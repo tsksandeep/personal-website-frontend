@@ -8,7 +8,7 @@
 }
 
 .skills-heading {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .special-skill-item {
@@ -34,6 +34,9 @@
 @media (max-width: 768px) {
   .custom-skill-col {
     margin: 40px 10px;
+  }
+  .skills-heading {
+    font-size: 1.4rem;
   }
 }
 

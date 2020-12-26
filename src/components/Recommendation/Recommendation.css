@@ -4,7 +4,7 @@
 }
 
 .recommendation-heading {
-font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 #recommendation-section .intro {
@@ -36,6 +36,12 @@ font-size: 1.4rem;
 
 .recommendation-author-name {
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .recommendation-heading {
+    font-size: 1.4rem;
+  }
 }
 
 @media (max-width: 576px) {

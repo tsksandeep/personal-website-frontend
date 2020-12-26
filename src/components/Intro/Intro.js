@@ -2,6 +2,7 @@ import React from "react";
 import "./Intro.css";
 import "../../assets/bootstrap/css/bootstrap.min.css";
 import avatar from "../../assets/img/avatar.jpg";
+import { NavHashLink as Link } from "react-router-hash-link";
 
 const Intro = () => {
     return (
@@ -13,8 +14,8 @@ const Intro = () => {
                 </div>
                 <div
                 ><span className="know-me-already">Know me already ?
-            </span><a className="btn btn-outline-primary"
-                        role="button" href="hire-me.html">HIRE ME</a></div>
+            </span><Link smooth className="btn btn-outline-primary"
+                        role="button" to="/#contact-section">HIRE ME</Link></div>
             </div>
         </section>
     )
