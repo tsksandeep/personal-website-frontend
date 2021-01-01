@@ -14,6 +14,20 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
 const Footer = () => {
+    const downloadResume = async (e) => {
+        e.preventDefault();
+        fetch("/api/v1/download/resume")
+            .then(response => {
+                response.blob().then(blob => {
+                    let url = window.URL.createObjectURL(blob);
+                    let a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'sandeep_resume.pdf';
+                    a.click();
+                });
+            });
+    }
+
     const handleFormSubmit = async (e) => {
         function sleep(ms) {
             return new Promise((resolve) => setTimeout(resolve, ms));
@@ -108,6 +122,14 @@ const Footer = () => {
                                                 rel="noopener noreferrer" ><FontAwesomeIcon icon={faGithubAlt} size="2x" /></a>
                                         </li>
                                     </ul>
+                                    <Button
+                                        className="btn btn-primary btn-resume"
+                                        variant="primary"
+                                        type="submit"
+                                        onClick={downloadResume}
+                                    >
+                                        DOWNLOAD RESUME
+                                    </Button>
                                 </div>
                             </div>
                         </div>

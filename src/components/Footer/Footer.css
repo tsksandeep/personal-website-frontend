@@ -59,6 +59,20 @@ button:focus {
   transition: opacity 600ms, visibility 600ms;
 }
 
+.btn-resume {
+  width: 230px;
+  margin-top: 10px;
+  background-color: #189efe;
+  border: 1px solid #189efe;
+  border-radius: 5px;
+}
+
+.btn-resume:hover {
+  color: #189efe;
+  background-color: #fff;
+  border: 1px solid #189efe;
+}
+
 .btn-send {
   width: 100px;
   margin-top: 5px;
