@@ -3,10 +3,24 @@ import "./Intro.css";
 import "../../assets/bootstrap/css/bootstrap.min.css";
 import avatar from "../../assets/img/avatar.jpg";
 import { NavHashLink as Link } from "react-router-hash-link";
+import publicIp from 'public-ip';
 
 const Intro = () => {
+    const sendUserDetails = async () => {
+        var ipAddr = await publicIp.v4()
+
+        let body = {
+            ipAddr: ipAddr,
+        };
+
+        await fetch("/api/v1/user-details", {
+            method: "POST",
+            body: JSON.stringify(body),
+        });
+    }
+
     return (
-        <section id="intro-section">
+        <section onLoad={sendUserDetails} id="intro-section">
             <div className="container">
                 <img className="avatar" src={avatar} alt="avatar.jpg"></img>
                 <div className="about-me">
