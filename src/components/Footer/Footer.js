@@ -104,7 +104,7 @@ const Footer = () => {
                                     </div>
                                     <ul className="fontawesome-icons-custom">
                                         <li>
-                                            <a href="https://www.linkedin.com/in/sandeep-kumar-49b532147/" target="_blank"
+                                            <a href="https://www.linkedin.com/in/sandeepkumar-tamilmani-49b532147/" target="_blank"
                                                 rel="noopener noreferrer">
                                                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
                                             </a>
