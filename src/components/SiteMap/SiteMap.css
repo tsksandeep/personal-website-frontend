@@ -1,0 +1,19 @@
+.sitemap-list {
+  width: 100%;
+  text-align: center;
+}
+
+.sitemap-list li {
+  list-style-type: none;
+  margin: 20px;
+}
+
+.sitemap-heading-wrapper {
+    margin: 50px;
+    width: 100%;
+}
+
+.sitemap-heading {
+    font-size: 2rem;
+    text-align: center;
+  }

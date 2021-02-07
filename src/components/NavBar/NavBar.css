@@ -52,6 +52,6 @@ input.form-control:focus {
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
     padding-right: 0rem !important;
-    margin-right: auto;
+    text-align: left;
   }
 }
