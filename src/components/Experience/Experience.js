@@ -18,8 +18,9 @@ const Experience = () => {
                             </div>
                             <div className="col-md-6 custom-period"><span className="period">Aug 2020 - Present</span></div>
                         </div>
-                        <p className="text-muted role-description">• Developed flight crawler micro service which is used by 1000's of users around the world.
-                           <br /> <br /> • Designed and Developed company's website using Figma and React.</p>
+                        <p className="text-muted role-description">• Developed CO2 Shipment tracker micro service using Go and Python which is used by 1000's of users around the world. <br /> <br />
+• Developed flight tracker micro service using Go and Python which is used by 1000's of users around the world. <br /> <br />
+• Developed company's website using React.</p>
                     </div>
                     <div className="item">
                         <div className="row">

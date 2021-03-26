@@ -3,7 +3,6 @@ import "./Recommendation.css";
 import "../../assets/bootstrap/css/bootstrap.min.css";
 import siva from "../../assets/img/siva.jpg";
 
-
 const Recommendation = () => {
     return (
         <section id="recommendation-section">

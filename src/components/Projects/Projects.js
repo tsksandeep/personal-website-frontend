@@ -1,6 +1,10 @@
 import React from "react";
 import "./Projects.css";
 import "../../assets/bootstrap/css/bootstrap.min.css";
+import sankar from "../../assets/img/sankar.jpeg";
+import vibeesh from "../../assets/img/vibeesh.jpeg";
+import sundar from "../../assets/img/sundar.jpeg";
+import sandeep from "../../assets/img/sandeep.jpeg";
 
 const Projects = () => {
     return (
@@ -12,32 +16,34 @@ const Projects = () => {
                 <div className="row">
                     <div className="col-md-6 col-lg-6">
                         <div className="project-card-no-image">
-                            <h3>Smart Theatre</h3>
-                            <h4>Augmented Reality is used to augment subtitles when the movie is played. This is
-                            currently built for
-                            android with future plans for AR Glass.</h4>
+                            <h3 className="project-card-heading">Smart Theatre System</h3>
+                            <h4>An AR app which enables the audience to view subtitles in a theatre through augmented reality. As of now Android phones can be used to experience it <br /> <br /> Tech Stack: Go, C#, gRPC, Sqlite3</h4>
+                            <div className="project-creators">
+                                <img className="rounded-circle project-creator-circle" src={sandeep} alt="sandeep.jpeg"></img>
+                                <img className="rounded-circle project-creator-circle" src={vibeesh} alt="vibeesh.jpeg"></img>
+                            </div>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-6">
                         <div className="project-card-no-image">
-                            <h3>Crypto Records</h3>
-                            <h4>Developed a Dynamic Web app which gets the users data and
-                            appends it to the block chain model thereby providing high
-                            end security for them.</h4>
+                            <h3 className="project-card-heading">Crypto Records</h3>
+                            <h4>A Web application for hospital management which stores their data in a block chain model thereby providing high end security for them <br /> <br /> Tech Stack: React, Django, PostgreSQL</h4>
+                            <div className="project-creators">
+                                <img className="rounded-circle project-creator-circle" src={sandeep} alt="sandeep.jpeg"></img>
+                                <img className="rounded-circle project-creator-circle" src={sankar} alt="sankar.jpeg"></img>
+                                <img className="rounded-circle project-creator-circle" src={sundar} alt="sundar.jpeg"></img>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-6">
+                    <div className="offset-md-3 col-md-6 offset-lg-3 col-lg-6">
                         <div className="project-card-no-image">
-                            <h3>SSN AR App</h3>
-                            <h4> An app which shows directions in 3d model of SSN College by
-                            scanning respective QR code.</h4>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-6">
-                        <div className="project-card-no-image">
-                            <h3>Sentiment Analysis</h3>
-                            <h4> Predicting whether the twitter feeds is of any emergency or
-                            a normal one. Machine Leraning was used to analyse it.</h4>
+                            <h3 className="project-card-heading">SSN AR App</h3>
+                            <h4>An AR app which shows directions in 3d model of our college by scanning respective QR codes <br /> <br /> Tech Stack: Go, C#, PostgreSQL</h4>
+                            <div className="project-creators">
+                                <img className="rounded-circle project-creator-circle" src={sandeep} alt="sandeep.jpeg"></img>
+                                <img className="rounded-circle project-creator-circle" src={sankar} alt="sankar.jpeg"></img>
+                                <img className="rounded-circle project-creator-circle" src={sundar} alt="sundar.jpeg"></img>
+                            </div>
                         </div>
                     </div>
                 </div>
