@@ -7,8 +7,17 @@
   font-size: 2rem;
 }
 
+.project-card-wrapper {
+  height: 100%;
+  padding: 20px 10px;
+}
+
 .project-card-no-image {
   border-radius: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project-card-heading {
