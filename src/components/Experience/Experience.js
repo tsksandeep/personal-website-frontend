@@ -34,8 +34,7 @@ const Experience = () => {
                         </div>
                         <p className="text-muted role-description">‣ Worked in developing next-generation playback server XP 4.0 for theatres used in 4000 screens across the world. <br /><br />
                             ‣ Worked in the development of Automation Controller, which automates the manual tasks done in theatres. <br /><br />
-                            ‣ Worked in the migration of a classical architecture into serverless architecture and
-                            deployed it in AWS Lambda, which thousands of distributors will use.</p>
+                            ‣ Worked in the migration of distributor asset microservice written in Node.js to Go and deployed it in AWS Lambda, which 1000's of distributors will use.</p>
                     </div>
                     <div className="item">
                         <div className="row">
@@ -45,11 +44,9 @@ const Experience = () => {
                             </div>
                             <div className="col-md-6 custom-period"><span className="period">Aug 2018 - Dec 2018</span></div>
                         </div>
-                        <p className="text-muted role-description">‣ Designed and developed an app which generates an XML ﬁle from the
-                            available cinema assets. It is used for publishing the content to iTunes.
+                        <p className="text-muted role-description">‣ Designed and developed an app using Python that generates an XML ﬁle from the available cinema assets. It is used for publishing the content to iTunes.
                             <br /> <br />
-                            ‣ Designed and developed a command line application which monitors the status of hard drives
-                            currently in use and store the logs in a ﬁle.</p>
+                            ‣ Designed and developed a command-line application using Python that monitors the status of hard drives currently in use and stores the logs in a file.</p>
                     </div>
                     <div className="item">
                         <div className="row">
