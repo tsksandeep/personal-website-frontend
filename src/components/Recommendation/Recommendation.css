@@ -25,6 +25,10 @@
   color: white;
 }
 
+.recommendation-box .description {
+  font-size: 17px;;
+}
+
 .recommendation-author {
   margin-top: -50px;
 }
@@ -32,10 +36,16 @@
 .recommendation-author-circle {
   padding: 5px;
   background-color: white;
+  height: 115px;
+  width: 115px;
 }
 
 .recommendation-author-name {
   margin-top: 10px;
+}
+
+#recommendation-section .item {
+  margin-bottom: 40px;
 }
 
 @media (max-width: 768px) {
