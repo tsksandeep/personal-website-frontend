@@ -9,20 +9,19 @@ import Education from "../components/Education/Education";
 import Footer from "../components/Footer/Footer";
 
 import "./bootstrap.min.css";
+import "./index.css";
 
 const HomePage = () => {
   return (
     <>
       <NavBar />
-      <div className="home-page">
-        <Intro />
-        <Experience />
-        <Education />
-        <Skills />
-        <Projects />
-        <Recommendation />
-        <Footer />
-      </div>
+      <Intro />
+      <Experience />
+      <Education />
+      <Skills />
+      <Projects />
+      <Recommendation />
+      <Footer />
     </>
   );
 };

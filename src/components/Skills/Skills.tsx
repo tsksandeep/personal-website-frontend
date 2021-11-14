@@ -1,6 +1,8 @@
 import React from "react";
 import { SkillsComponentStyle } from "./Skills.style";
-import "ionicons";
+import { BiGlobe } from "@react-icons/all-files/bi/BiGlobe";
+import { BsLaptop } from "@react-icons/all-files/bs/BsLaptop";
+import { AiFillCloud } from "@react-icons/all-files/ai/AiFillCloud";
 
 const Skills = () => {
   return (
@@ -14,7 +16,7 @@ const Skills = () => {
             <div className="col-lg-4 col-md-4 custom-skill-col">
               <div className="card special-skill-item portfolio-info-card border-0">
                 <div className="card-header bg-transparent border-0">
-                  <i className="icon ion-android-globe"></i>
+                  <BiGlobe fill="#0ea0ff" className="ion-icons" />
                 </div>
                 <div className="card-body">
                   <h3 className="card-title">Web Development</h3>
@@ -68,7 +70,7 @@ const Skills = () => {
             <div className="col-lg-4 col-md-4 custom-skill-col">
               <div className="card special-skill-item portfolio-info-card border-0">
                 <div className="card-header bg-transparent border-0">
-                  <i className="icon ion-android-laptop"></i>
+                  <BsLaptop fill="#0ea0ff" className="ion-icons" />
                 </div>
                 <div className="card-body">
                   <h3 className="card-title">Linux</h3>
@@ -94,7 +96,7 @@ const Skills = () => {
             <div className="col-lg-4 col-md-4 custom-skill-col">
               <div className="card special-skill-item portfolio-info-card border-0">
                 <div className="card-header bg-transparent border-0">
-                  <i className="icon ion-ios-cloud"></i>
+                  <AiFillCloud fill="#0ea0ff" className="ion-icons" />
                 </div>
                 <div className="card-body">
                   <h3 className="card-title">Cloud</h3>

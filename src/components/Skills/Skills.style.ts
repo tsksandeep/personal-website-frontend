@@ -32,6 +32,11 @@ export const SkillsComponentStyle = () => css`
     height: 8px;
   }
 
+  .ion-icons {
+    height: 50px !important;
+    width: 50px !important;
+  }
+
   @media (max-width: 768px) {
     .custom-skill-col {
       margin: 40px 10px;

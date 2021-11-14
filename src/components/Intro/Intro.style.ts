@@ -2,7 +2,7 @@ import { css } from "emotion";
 
 export const IntroComponentStyle = () => css`
   font-family: "Roboto", sans-serif;
-  padding: 100px 0;
+  padding: 200px 0 100px 0;
 
   .avatar {
     width: 200px;

@@ -8,11 +8,11 @@ export const RecommendationComponentStyle = () => css`
     font-size: 2rem;
   }
 
-  #recommendation-section .intro {
+  .intro {
     margin-bottom: 50px;
   }
 
-  #recommendation-section .description {
+  .description {
     margin: 0;
   }
 
@@ -45,7 +45,7 @@ export const RecommendationComponentStyle = () => css`
     margin-top: 10px;
   }
 
-  #recommendation-section .item {
+  .item {
     margin-bottom: 40px;
   }
 

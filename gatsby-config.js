@@ -1,8 +1,6 @@
-require("dotenv").config();
-
 module.exports = {
   siteMetadata: {
-    siteUrl: `${process.env.GATSBY_URL}`,
+    siteUrl: `https://www.tsksandeep.com`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
