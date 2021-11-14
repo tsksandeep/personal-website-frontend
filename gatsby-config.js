@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.tsksandeep.com`,
+    siteUrl: `https://tsksandeep.com`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
