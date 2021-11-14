@@ -1855,7 +1855,7 @@ var shallowCompare = function shallowCompare(obj1, obj2) {
 /***/ "LeKB":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports=[{plugin:__webpack_require__("JRtE"),options:{"plugins":[],"id":"GTM-PZ36878","includeInDevelopment":false,"defaultDataLayer":{"type":"object","value":{"platform":"gatsby"}},"routeChangeEventName":"gatsby-route-change"}},{plugin:__webpack_require__("GddB"),options:{"plugins":[]}}];
+module.exports=[{plugin:__webpack_require__("JRtE"),options:{"plugins":[],"id":"GTM-T3LHGZR","includeInDevelopment":false,"defaultDataLayer":{"type":"object","value":{"platform":"gatsby"}},"routeChangeEventName":"gatsby-route-change"}},{plugin:__webpack_require__("GddB"),options:{"plugins":[]}}];
 
 /***/ }),
 
@@ -4189,4 +4189,4 @@ module.exports = function (key, value) {
 /***/ })
 
 },[["UxWs",4,3]]]);
-//# sourceMappingURL=app-84fd33ce8af2377f0197.js.map
+//# sourceMappingURL=app-3fcec10bbdb6c82c1127.js.map
