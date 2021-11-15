@@ -14,8 +14,8 @@ module.exports = __webpack_require__.p + "static/robot-df8cf380f9ef226e7940ba114
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__("q1tI");
+// EXTERNAL MODULE: /Users/sandeepkumar/node_modules/react/index.js
+var react = __webpack_require__("ERkP");
 var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
 // EXTERNAL MODULE: ./src/components/NavBar/NavBar.tsx + 43 modules
@@ -94,4 +94,4 @@ var invisible_captcha_solver_NotFound = function NotFound() {
 /***/ })
 
 }]);
-//# sourceMappingURL=component---src-pages-invisible-captcha-solver-tsx-579e2da052cfb8bcd8c8.js.map
+//# sourceMappingURL=component---src-pages-invisible-captcha-solver-tsx-8a35b1924dd927dfe13c.js.map
