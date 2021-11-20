@@ -43,6 +43,9 @@
       "last 1 safari version"
     ]
   },
+  "resolutions": {
+    "remark-mdx": "1.6.22"
+  },
   "proxy": "http://localhost:3000",
   "devDependencies": {
     "@types/js-cookie": "^2.2.6",

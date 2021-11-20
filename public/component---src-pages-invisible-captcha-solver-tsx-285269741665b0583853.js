@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[8],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[7],{
 
 /***/ "C6Zh":
 /***/ (function(module, exports, __webpack_require__) {
@@ -14,8 +14,8 @@ module.exports = __webpack_require__.p + "static/robot-df8cf380f9ef226e7940ba114
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// EXTERNAL MODULE: /Users/sandeepkumar/node_modules/react/index.js
-var react = __webpack_require__("ERkP");
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__("q1tI");
 var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
 // EXTERNAL MODULE: ./src/components/NavBar/NavBar.tsx + 43 modules
@@ -94,4 +94,4 @@ var invisible_captcha_solver_NotFound = function NotFound() {
 /***/ })
 
 }]);
-//# sourceMappingURL=component---src-pages-invisible-captcha-solver-tsx-8a35b1924dd927dfe13c.js.map
+//# sourceMappingURL=component---src-pages-invisible-captcha-solver-tsx-285269741665b0583853.js.map

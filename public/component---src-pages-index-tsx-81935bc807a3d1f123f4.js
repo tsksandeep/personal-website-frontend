@@ -1,63 +1,9 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[7],{
-
-/***/ "/e+8":
-/***/ (function(module, exports, __webpack_require__) {
-
-// THIS FILE IS AUTO GENERATED
-var GenIcon = __webpack_require__("eVbl").GenIcon;
-
-module.exports.BsLaptop = function BsLaptop(props) {
-  return GenIcon({
-    "tag": "svg",
-    "attr": {
-      "viewBox": "0 0 16 16",
-      "fill": "currentColor"
-    },
-    "child": [{
-      "tag": "path",
-      "attr": {
-        "fillRule": "evenodd",
-        "d": "M13.5 3h-11a.5.5 0 00-.5.5V11h12V3.5a.5.5 0 00-.5-.5zm-11-1A1.5 1.5 0 001 3.5V12h14V3.5A1.5 1.5 0 0013.5 2h-11z",
-        "clipRule": "evenodd"
-      }
-    }, {
-      "tag": "path",
-      "attr": {
-        "d": "M0 12h16v.5a1.5 1.5 0 01-1.5 1.5h-13A1.5 1.5 0 010 12.5V12z"
-      }
-    }]
-  })(props);
-};
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[6],{
 
 /***/ "0Z3b":
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/sandeep-b7da0c71c6cc9285cb7cf557afb5d8df.jpeg";
-
-/***/ }),
-
-/***/ "16da":
-/***/ (function(module, exports, __webpack_require__) {
-
-// THIS FILE IS AUTO GENERATED
-var GenIcon = __webpack_require__("eVbl").GenIcon;
-
-module.exports.BiGlobe = function BiGlobe(props) {
-  return GenIcon({
-    "tag": "svg",
-    "attr": {
-      "viewBox": "0 0 24 24"
-    },
-    "child": [{
-      "tag": "path",
-      "attr": {
-        "d": "M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M19.931,11h-2.764 c-0.116-2.165-0.73-4.3-1.792-6.243C17.813,5.898,19.582,8.228,19.931,11z M12.53,4.027c1.035,1.364,2.427,3.78,2.627,6.973H9.03 c0.139-2.596,0.994-5.028,2.451-6.974C11.653,4.016,11.825,4,12,4C12.179,4,12.354,4.016,12.53,4.027z M8.688,4.727 C7.704,6.618,7.136,8.762,7.03,11H4.069C4.421,8.204,6.217,5.857,8.688,4.727z M4.069,13h2.974c0.136,2.379,0.665,4.478,1.556,6.23 C6.174,18.084,4.416,15.762,4.069,13z M11.45,19.973C10.049,18.275,9.222,15.896,9.041,13h6.113 c-0.208,2.773-1.117,5.196-2.603,6.972C12.369,19.984,12.187,20,12,20C11.814,20,11.633,19.984,11.45,19.973z M15.461,19.201 c0.955-1.794,1.538-3.901,1.691-6.201h2.778C19.587,15.739,17.854,18.047,15.461,19.201z"
-      }
-    }]
-  })(props);
-};
 
 /***/ }),
 
@@ -71,7 +17,7 @@ function _interopDefault(ex) {
   return ex && typeof ex === 'object' && 'default' in ex ? ex['default'] : ex;
 }
 
-var React = __webpack_require__("ERkP");
+var React = __webpack_require__("q1tI");
 
 var React__default = _interopDefault(React);
 
@@ -195,26 +141,242 @@ module.exports = withSideEffect;
 
 /***/ }),
 
-/***/ "8Zy0":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "BPHJ":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// THIS FILE IS AUTO GENERATED
-var GenIcon = __webpack_require__("eVbl").GenIcon;
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
 
-module.exports.AiFillCloud = function AiFillCloud(props) {
-  return GenIcon({
-    "tag": "svg",
-    "attr": {
-      "viewBox": "0 0 1024 1024"
-    },
-    "child": [{
-      "tag": "path",
-      "attr": {
-        "d": "M811.4 418.7C765.6 297.9 648.9 212 512.2 212S258.8 297.8 213 418.6C127.3 441.1 64 519.1 64 612c0 110.5 89.5 200 199.9 200h496.2C870.5 812 960 722.5 960 612c0-92.7-63.1-170.7-148.6-193.3z"
-      }
-    }]
-  })(props);
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "IconsManifest", function() { return /* reexport */ IconsManifest; });
+__webpack_require__.d(__webpack_exports__, "GenIcon", function() { return /* reexport */ GenIcon; });
+__webpack_require__.d(__webpack_exports__, "IconBase", function() { return /* reexport */ IconBase; });
+__webpack_require__.d(__webpack_exports__, "DefaultContext", function() { return /* reexport */ DefaultContext; });
+__webpack_require__.d(__webpack_exports__, "IconContext", function() { return /* reexport */ IconContext; });
+
+// CONCATENATED MODULE: ./node_modules/@react-icons/all-files/lib/esm/iconsManifest.js
+var IconsManifest = [{
+  "id": "fa",
+  "name": "Font Awesome",
+  "projectUrl": "https://fontawesome.com/",
+  "license": "CC BY 4.0 License",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+}, {
+  "id": "io",
+  "name": "Ionicons 4",
+  "projectUrl": "https://ionicons.com/",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/ionic-team/ionicons/blob/master/LICENSE"
+}, {
+  "id": "io5",
+  "name": "Ionicons 5",
+  "projectUrl": "https://ionicons.com/",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/ionic-team/ionicons/blob/master/LICENSE"
+}, {
+  "id": "md",
+  "name": "Material Design icons",
+  "projectUrl": "http://google.github.io/material-design-icons/",
+  "license": "Apache License Version 2.0",
+  "licenseUrl": "https://github.com/google/material-design-icons/blob/master/LICENSE"
+}, {
+  "id": "ti",
+  "name": "Typicons",
+  "projectUrl": "http://s-ings.com/typicons/",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+}, {
+  "id": "go",
+  "name": "Github Octicons icons",
+  "projectUrl": "https://octicons.github.com/",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/primer/octicons/blob/master/LICENSE"
+}, {
+  "id": "fi",
+  "name": "Feather",
+  "projectUrl": "https://feathericons.com/",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/feathericons/feather/blob/master/LICENSE"
+}, {
+  "id": "gi",
+  "name": "Game Icons",
+  "projectUrl": "https://game-icons.net/",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+}, {
+  "id": "wi",
+  "name": "Weather Icons",
+  "projectUrl": "https://erikflowers.github.io/weather-icons/",
+  "license": "SIL OFL 1.1",
+  "licenseUrl": "http://scripts.sil.org/OFL"
+}, {
+  "id": "di",
+  "name": "Devicons",
+  "projectUrl": "https://vorillaz.github.io/devicons/",
+  "license": "MIT",
+  "licenseUrl": "https://opensource.org/licenses/MIT"
+}, {
+  "id": "ai",
+  "name": "Ant Design Icons",
+  "projectUrl": "https://github.com/ant-design/ant-design-icons",
+  "license": "MIT",
+  "licenseUrl": "https://opensource.org/licenses/MIT"
+}, {
+  "id": "bs",
+  "name": "Bootstrap Icons",
+  "projectUrl": "https://github.com/twbs/icons",
+  "license": "MIT",
+  "licenseUrl": "https://opensource.org/licenses/MIT"
+}, {
+  "id": "ri",
+  "name": "Remix Icon",
+  "projectUrl": "https://github.com/Remix-Design/RemixIcon",
+  "license": "Apache License Version 2.0",
+  "licenseUrl": "http://www.apache.org/licenses/"
+}, {
+  "id": "fc",
+  "name": "Flat Color Icons",
+  "projectUrl": "https://github.com/icons8/flat-color-icons",
+  "license": "MIT",
+  "licenseUrl": "https://opensource.org/licenses/MIT"
+}, {
+  "id": "gr",
+  "name": "Grommet-Icons",
+  "projectUrl": "https://github.com/grommet/grommet-icons",
+  "license": "Apache License Version 2.0",
+  "licenseUrl": "http://www.apache.org/licenses/"
+}, {
+  "id": "hi",
+  "name": "Heroicons",
+  "projectUrl": "https://github.com/refactoringui/heroicons",
+  "license": "MIT",
+  "licenseUrl": "https://opensource.org/licenses/MIT"
+}, {
+  "id": "si",
+  "name": "Simple Icons",
+  "projectUrl": "https://simpleicons.org/",
+  "license": "CC0 1.0 Universal",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+}, {
+  "id": "im",
+  "name": "IcoMoon Free",
+  "projectUrl": "https://github.com/Keyamoon/IcoMoon-Free",
+  "license": "CC BY 4.0 License"
+}, {
+  "id": "bi",
+  "name": "BoxIcons",
+  "projectUrl": "https://github.com/atisawd/boxicons",
+  "license": "CC BY 4.0 License"
+}, {
+  "id": "cg",
+  "name": "css.gg",
+  "projectUrl": "https://github.com/astrit/css.gg",
+  "license": "MIT",
+  "licenseUrl": "https://opensource.org/licenses/MIT"
+}, {
+  "id": "vsc",
+  "name": "VS Code Icons",
+  "projectUrl": "https://github.com/microsoft/vscode-codicons",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+}];
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__("q1tI");
+var react_default = /*#__PURE__*/__webpack_require__.n(react);
+
+// CONCATENATED MODULE: ./node_modules/@react-icons/all-files/lib/esm/iconContext.js
+
+var DefaultContext = {
+  color: undefined,
+  size: undefined,
+  className: undefined,
+  style: undefined,
+  attr: undefined
 };
+var IconContext = react_default.a.createContext && react_default.a.createContext(DefaultContext);
+// CONCATENATED MODULE: ./node_modules/@react-icons/all-files/lib/esm/iconBase.js
+var __assign = undefined && undefined.__assign || function () {
+  __assign = Object.assign || function (t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+      s = arguments[i];
+
+      for (var p in s) {
+        if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+      }
+    }
+
+    return t;
+  };
+
+  return __assign.apply(this, arguments);
+};
+
+var __rest = undefined && undefined.__rest || function (s, e) {
+  var t = {};
+
+  for (var p in s) {
+    if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
+  }
+
+  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+    if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
+  }
+  return t;
+};
+
+
+
+
+function Tree2Element(tree) {
+  return tree && tree.map(function (node, i) {
+    return react_default.a.createElement(node.tag, __assign({
+      key: i
+    }, node.attr), Tree2Element(node.child));
+  });
+}
+
+function GenIcon(data) {
+  return function (props) {
+    return react_default.a.createElement(IconBase, __assign({
+      attr: __assign({}, data.attr)
+    }, props), Tree2Element(data.child));
+  };
+}
+function IconBase(props) {
+  var elem = function elem(conf) {
+    var attr = props.attr,
+        size = props.size,
+        title = props.title,
+        svgProps = __rest(props, ["attr", "size", "title"]);
+
+    var computedSize = size || conf.size || "1em";
+    var className;
+    if (conf.className) className = conf.className;
+    if (props.className) className = (className ? className + ' ' : '') + props.className;
+    return react_default.a.createElement("svg", __assign({
+      stroke: "currentColor",
+      fill: "currentColor",
+      strokeWidth: "0"
+    }, conf.attr, attr, svgProps, {
+      className: className,
+      style: __assign(__assign({
+        color: props.color || conf.color
+      }, conf.style), props.style),
+      height: computedSize,
+      width: computedSize,
+      xmlns: "http://www.w3.org/2000/svg"
+    }), title && react_default.a.createElement("title", null, title), props.children);
+  };
+
+  return IconContext !== undefined ? react_default.a.createElement(IconContext.Consumer, null, function (conf) {
+    return elem(conf);
+  }) : elem(DefaultContext);
+}
+// CONCATENATED MODULE: ./node_modules/@react-icons/all-files/lib/esm/index.js
+
+
+
 
 /***/ }),
 
@@ -232,10 +394,64 @@ module.exports = __webpack_require__.p + "static/ajith-9e8aae7a9d376f484f16600c0
 
 /***/ }),
 
+/***/ "FPs+":
+/***/ (function(module, exports, __webpack_require__) {
+
+// THIS FILE IS AUTO GENERATED
+var GenIcon = __webpack_require__("BPHJ").GenIcon;
+
+module.exports.BiGlobe = function BiGlobe(props) {
+  return GenIcon({
+    "tag": "svg",
+    "attr": {
+      "viewBox": "0 0 24 24"
+    },
+    "child": [{
+      "tag": "path",
+      "attr": {
+        "d": "M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M19.931,11h-2.764 c-0.116-2.165-0.73-4.3-1.792-6.243C17.813,5.898,19.582,8.228,19.931,11z M12.53,4.027c1.035,1.364,2.427,3.78,2.627,6.973H9.03 c0.139-2.596,0.994-5.028,2.451-6.974C11.653,4.016,11.825,4,12,4C12.179,4,12.354,4.016,12.53,4.027z M8.688,4.727 C7.704,6.618,7.136,8.762,7.03,11H4.069C4.421,8.204,6.217,5.857,8.688,4.727z M4.069,13h2.974c0.136,2.379,0.665,4.478,1.556,6.23 C6.174,18.084,4.416,15.762,4.069,13z M11.45,19.973C10.049,18.275,9.222,15.896,9.041,13h6.113 c-0.208,2.773-1.117,5.196-2.603,6.972C12.369,19.984,12.187,20,12,20C11.814,20,11.633,19.984,11.45,19.973z M15.461,19.201 c0.955-1.794,1.538-3.901,1.691-6.201h2.778C19.587,15.739,17.854,18.047,15.461,19.201z"
+      }
+    }]
+  })(props);
+};
+
+/***/ }),
+
 /***/ "I97n":
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/meta-8c978111515b660e7c74c8ceaea853b1.png";
+
+/***/ }),
+
+/***/ "Nvz/":
+/***/ (function(module, exports, __webpack_require__) {
+
+// THIS FILE IS AUTO GENERATED
+var GenIcon = __webpack_require__("BPHJ").GenIcon;
+
+module.exports.BsLaptop = function BsLaptop(props) {
+  return GenIcon({
+    "tag": "svg",
+    "attr": {
+      "viewBox": "0 0 16 16",
+      "fill": "currentColor"
+    },
+    "child": [{
+      "tag": "path",
+      "attr": {
+        "fillRule": "evenodd",
+        "d": "M13.5 3h-11a.5.5 0 00-.5.5V11h12V3.5a.5.5 0 00-.5-.5zm-11-1A1.5 1.5 0 001 3.5V12h14V3.5A1.5 1.5 0 0013.5 2h-11z",
+        "clipRule": "evenodd"
+      }
+    }, {
+      "tag": "path",
+      "attr": {
+        "d": "M0 12h16v.5a1.5 1.5 0 01-1.5 1.5h-13A1.5 1.5 0 010 12.5V12z"
+      }
+    }]
+  })(props);
+};
 
 /***/ }),
 
@@ -246,8 +462,8 @@ module.exports = __webpack_require__.p + "static/meta-8c978111515b660e7c74c8ceae
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// EXTERNAL MODULE: /Users/sandeepkumar/node_modules/react/index.js
-var react = __webpack_require__("ERkP");
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__("q1tI");
 var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteralLoose.js
@@ -315,14 +531,14 @@ var Skills_style_templateObject;
 var Skills_style_SkillsComponentStyle = function SkillsComponentStyle() {
   return Object(emotion_esm["a" /* css */])(Skills_style_templateObject || (Skills_style_templateObject = Object(taggedTemplateLiteralLoose["a" /* default */])(["\n  font-family: \"Roboto\", sans-serif;\n  padding: 150px 0;\n\n  .heading {\n    margin-bottom: 50px;\n  }\n\n  .skills-heading {\n    font-size: 2rem;\n  }\n\n  .special-skill-item {\n    padding: 20px;\n    border-radius: 10px !important;\n  }\n\n  .special-skill-item:hover {\n    transform: scale(1.1);\n    transition-duration: 0.5s;\n    z-index: 1;\n  }\n\n  .skills-topic {\n    text-align: left;\n    padding-top: 10px;\n  }\n\n  .progress {\n    height: 8px;\n  }\n\n  .ion-icons {\n    height: 50px !important;\n    width: 50px !important;\n  }\n\n  @media (max-width: 768px) {\n    .custom-skill-col {\n      margin: 40px 10px;\n    }\n    .skills-heading {\n      font-size: 1.4rem;\n    }\n  }\n\n  @media (max-width: 578px) {\n    .special-skill-item:hover {\n      transform: none;\n    }\n  }\n"])));
 };
-// EXTERNAL MODULE: /Users/sandeepkumar/node_modules/@react-icons/all-files/bi/BiGlobe.js
-var BiGlobe = __webpack_require__("16da");
+// EXTERNAL MODULE: ./node_modules/@react-icons/all-files/bi/BiGlobe.js
+var BiGlobe = __webpack_require__("FPs+");
 
-// EXTERNAL MODULE: /Users/sandeepkumar/node_modules/@react-icons/all-files/bs/BsLaptop.js
-var BsLaptop = __webpack_require__("/e+8");
+// EXTERNAL MODULE: ./node_modules/@react-icons/all-files/bs/BsLaptop.js
+var BsLaptop = __webpack_require__("Nvz/");
 
-// EXTERNAL MODULE: /Users/sandeepkumar/node_modules/@react-icons/all-files/ai/AiFillCloud.js
-var AiFillCloud = __webpack_require__("8Zy0");
+// EXTERNAL MODULE: ./node_modules/@react-icons/all-files/ai/AiFillCloud.js
+var AiFillCloud = __webpack_require__("Y510");
 
 // CONCATENATED MODULE: ./src/components/Skills/Skills.tsx
 
@@ -984,6 +1200,29 @@ module.exports = __webpack_require__.p + "static/sundar-d7df5d985d9e15268b691f51
 
 /***/ }),
 
+/***/ "Y510":
+/***/ (function(module, exports, __webpack_require__) {
+
+// THIS FILE IS AUTO GENERATED
+var GenIcon = __webpack_require__("BPHJ").GenIcon;
+
+module.exports.AiFillCloud = function AiFillCloud(props) {
+  return GenIcon({
+    "tag": "svg",
+    "attr": {
+      "viewBox": "0 0 1024 1024"
+    },
+    "child": [{
+      "tag": "path",
+      "attr": {
+        "d": "M811.4 418.7C765.6 297.9 648.9 212 512.2 212S258.8 297.8 213 418.6C127.3 441.1 64 519.1 64 612c0 110.5 89.5 200 199.9 200h496.2C870.5 812 960 722.5 960 612c0-92.7-63.1-170.7-148.6-193.3z"
+      }
+    }]
+  })(props);
+};
+
+/***/ }),
+
 /***/ "b+Tf":
 /***/ (function(module, exports) {
 
@@ -1150,245 +1389,6 @@ module.exports = function isEqual(a, b) {
 
 /***/ }),
 
-/***/ "eVbl":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "IconsManifest", function() { return /* reexport */ IconsManifest; });
-__webpack_require__.d(__webpack_exports__, "GenIcon", function() { return /* reexport */ GenIcon; });
-__webpack_require__.d(__webpack_exports__, "IconBase", function() { return /* reexport */ IconBase; });
-__webpack_require__.d(__webpack_exports__, "DefaultContext", function() { return /* reexport */ DefaultContext; });
-__webpack_require__.d(__webpack_exports__, "IconContext", function() { return /* reexport */ IconContext; });
-
-// CONCATENATED MODULE: /Users/sandeepkumar/node_modules/@react-icons/all-files/lib/esm/iconsManifest.js
-var IconsManifest = [{
-  "id": "fa",
-  "name": "Font Awesome",
-  "projectUrl": "https://fontawesome.com/",
-  "license": "CC BY 4.0 License",
-  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
-}, {
-  "id": "io",
-  "name": "Ionicons 4",
-  "projectUrl": "https://ionicons.com/",
-  "license": "MIT",
-  "licenseUrl": "https://github.com/ionic-team/ionicons/blob/master/LICENSE"
-}, {
-  "id": "io5",
-  "name": "Ionicons 5",
-  "projectUrl": "https://ionicons.com/",
-  "license": "MIT",
-  "licenseUrl": "https://github.com/ionic-team/ionicons/blob/master/LICENSE"
-}, {
-  "id": "md",
-  "name": "Material Design icons",
-  "projectUrl": "http://google.github.io/material-design-icons/",
-  "license": "Apache License Version 2.0",
-  "licenseUrl": "https://github.com/google/material-design-icons/blob/master/LICENSE"
-}, {
-  "id": "ti",
-  "name": "Typicons",
-  "projectUrl": "http://s-ings.com/typicons/",
-  "license": "CC BY-SA 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-}, {
-  "id": "go",
-  "name": "Github Octicons icons",
-  "projectUrl": "https://octicons.github.com/",
-  "license": "MIT",
-  "licenseUrl": "https://github.com/primer/octicons/blob/master/LICENSE"
-}, {
-  "id": "fi",
-  "name": "Feather",
-  "projectUrl": "https://feathericons.com/",
-  "license": "MIT",
-  "licenseUrl": "https://github.com/feathericons/feather/blob/master/LICENSE"
-}, {
-  "id": "gi",
-  "name": "Game Icons",
-  "projectUrl": "https://game-icons.net/",
-  "license": "CC BY 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
-}, {
-  "id": "wi",
-  "name": "Weather Icons",
-  "projectUrl": "https://erikflowers.github.io/weather-icons/",
-  "license": "SIL OFL 1.1",
-  "licenseUrl": "http://scripts.sil.org/OFL"
-}, {
-  "id": "di",
-  "name": "Devicons",
-  "projectUrl": "https://vorillaz.github.io/devicons/",
-  "license": "MIT",
-  "licenseUrl": "https://opensource.org/licenses/MIT"
-}, {
-  "id": "ai",
-  "name": "Ant Design Icons",
-  "projectUrl": "https://github.com/ant-design/ant-design-icons",
-  "license": "MIT",
-  "licenseUrl": "https://opensource.org/licenses/MIT"
-}, {
-  "id": "bs",
-  "name": "Bootstrap Icons",
-  "projectUrl": "https://github.com/twbs/icons",
-  "license": "MIT",
-  "licenseUrl": "https://opensource.org/licenses/MIT"
-}, {
-  "id": "ri",
-  "name": "Remix Icon",
-  "projectUrl": "https://github.com/Remix-Design/RemixIcon",
-  "license": "Apache License Version 2.0",
-  "licenseUrl": "http://www.apache.org/licenses/"
-}, {
-  "id": "fc",
-  "name": "Flat Color Icons",
-  "projectUrl": "https://github.com/icons8/flat-color-icons",
-  "license": "MIT",
-  "licenseUrl": "https://opensource.org/licenses/MIT"
-}, {
-  "id": "gr",
-  "name": "Grommet-Icons",
-  "projectUrl": "https://github.com/grommet/grommet-icons",
-  "license": "Apache License Version 2.0",
-  "licenseUrl": "http://www.apache.org/licenses/"
-}, {
-  "id": "hi",
-  "name": "Heroicons",
-  "projectUrl": "https://github.com/refactoringui/heroicons",
-  "license": "MIT",
-  "licenseUrl": "https://opensource.org/licenses/MIT"
-}, {
-  "id": "si",
-  "name": "Simple Icons",
-  "projectUrl": "https://simpleicons.org/",
-  "license": "CC0 1.0 Universal",
-  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-}, {
-  "id": "im",
-  "name": "IcoMoon Free",
-  "projectUrl": "https://github.com/Keyamoon/IcoMoon-Free",
-  "license": "CC BY 4.0 License"
-}, {
-  "id": "bi",
-  "name": "BoxIcons",
-  "projectUrl": "https://github.com/atisawd/boxicons",
-  "license": "CC BY 4.0 License"
-}, {
-  "id": "cg",
-  "name": "css.gg",
-  "projectUrl": "https://github.com/astrit/css.gg",
-  "license": "MIT",
-  "licenseUrl": "https://opensource.org/licenses/MIT"
-}, {
-  "id": "vsc",
-  "name": "VS Code Icons",
-  "projectUrl": "https://github.com/microsoft/vscode-codicons",
-  "license": "CC BY 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
-}];
-// EXTERNAL MODULE: /Users/sandeepkumar/node_modules/react/index.js
-var react = __webpack_require__("ERkP");
-var react_default = /*#__PURE__*/__webpack_require__.n(react);
-
-// CONCATENATED MODULE: /Users/sandeepkumar/node_modules/@react-icons/all-files/lib/esm/iconContext.js
-
-var DefaultContext = {
-  color: undefined,
-  size: undefined,
-  className: undefined,
-  style: undefined,
-  attr: undefined
-};
-var IconContext = react_default.a.createContext && react_default.a.createContext(DefaultContext);
-// CONCATENATED MODULE: /Users/sandeepkumar/node_modules/@react-icons/all-files/lib/esm/iconBase.js
-var __assign = undefined && undefined.__assign || function () {
-  __assign = Object.assign || function (t) {
-    for (var s, i = 1, n = arguments.length; i < n; i++) {
-      s = arguments[i];
-
-      for (var p in s) {
-        if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-      }
-    }
-
-    return t;
-  };
-
-  return __assign.apply(this, arguments);
-};
-
-var __rest = undefined && undefined.__rest || function (s, e) {
-  var t = {};
-
-  for (var p in s) {
-    if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
-  }
-
-  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-    if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
-  }
-  return t;
-};
-
-
-
-
-function Tree2Element(tree) {
-  return tree && tree.map(function (node, i) {
-    return react_default.a.createElement(node.tag, __assign({
-      key: i
-    }, node.attr), Tree2Element(node.child));
-  });
-}
-
-function GenIcon(data) {
-  return function (props) {
-    return react_default.a.createElement(IconBase, __assign({
-      attr: __assign({}, data.attr)
-    }, props), Tree2Element(data.child));
-  };
-}
-function IconBase(props) {
-  var elem = function elem(conf) {
-    var attr = props.attr,
-        size = props.size,
-        title = props.title,
-        svgProps = __rest(props, ["attr", "size", "title"]);
-
-    var computedSize = size || conf.size || "1em";
-    var className;
-    if (conf.className) className = conf.className;
-    if (props.className) className = (className ? className + ' ' : '') + props.className;
-    return react_default.a.createElement("svg", __assign({
-      stroke: "currentColor",
-      fill: "currentColor",
-      strokeWidth: "0"
-    }, conf.attr, attr, svgProps, {
-      className: className,
-      style: __assign(__assign({
-        color: props.color || conf.color
-      }, conf.style), props.style),
-      height: computedSize,
-      width: computedSize,
-      xmlns: "http://www.w3.org/2000/svg"
-    }), title && react_default.a.createElement("title", null, title), props.children);
-  };
-
-  return IconContext !== undefined ? react_default.a.createElement(IconContext.Consumer, null, function (conf) {
-    return elem(conf);
-  }) : elem(DefaultContext);
-}
-// CONCATENATED MODULE: /Users/sandeepkumar/node_modules/@react-icons/all-files/lib/esm/index.js
-
-
-
-
-/***/ }),
-
 /***/ "jtjL":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1401,19 +1401,16 @@ module.exports = __webpack_require__.p + "static/vibeesh-53e0cab9cfe5716666ea42c
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HelmetExport; });
-/* harmony import */ var core_js_modules_es_array_reduce_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("E9XD");
-/* harmony import */ var core_js_modules_es_array_reduce_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_reduce_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("17x9");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_side_effect__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("8+s/");
-/* harmony import */ var react_side_effect__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_side_effect__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_fast_compare__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("bmMU");
-/* harmony import */ var react_fast_compare__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_fast_compare__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("ERkP");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var object_assign__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("YVoz");
-/* harmony import */ var object_assign__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(object_assign__WEBPACK_IMPORTED_MODULE_5__);
-
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("17x9");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_side_effect__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("8+s/");
+/* harmony import */ var react_side_effect__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_side_effect__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_fast_compare__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("bmMU");
+/* harmony import */ var react_fast_compare__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_fast_compare__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("q1tI");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var object_assign__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("YVoz");
+/* harmony import */ var object_assign__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(object_assign__WEBPACK_IMPORTED_MODULE_4__);
 
 
 
@@ -1681,7 +1678,7 @@ var getTagsFromPropsList = function getTagsFromPropsList(tagName, primaryAttribu
 
     for (var i = 0; i < keys.length; i++) {
       var attributeKey = keys[i];
-      var tagUnion = object_assign__WEBPACK_IMPORTED_MODULE_5___default()({}, approvedSeenTags[attributeKey], instanceSeenTags[attributeKey]);
+      var tagUnion = object_assign__WEBPACK_IMPORTED_MODULE_4___default()({}, approvedSeenTags[attributeKey], instanceSeenTags[attributeKey]);
       approvedSeenTags[attributeKey] = tagUnion;
     }
 
@@ -1965,7 +1962,7 @@ var generateTitleAsReactComponent = function generateTitleAsReactComponent(type,
     key: title
   }, _initProps[HELMET_ATTRIBUTE] = true, _initProps);
   var props = convertElementAttributestoReactProps(attributes, initProps);
-  return [react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(TAG_NAMES.TITLE, props, title)];
+  return [react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(TAG_NAMES.TITLE, props, title)];
 };
 
 var generateTagsAsReactComponent = function generateTagsAsReactComponent(type, tags) {
@@ -1987,7 +1984,7 @@ var generateTagsAsReactComponent = function generateTagsAsReactComponent(type, t
         mappedTag[mappedAttribute] = tag[attribute];
       }
     });
-    return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(type, mappedTag);
+    return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(type, mappedTag);
   });
 };
 
@@ -2067,7 +2064,7 @@ var Helmet = function Helmet(Component) {
     }
 
     HelmetWrapper.prototype.shouldComponentUpdate = function shouldComponentUpdate(nextProps) {
-      return !react_fast_compare__WEBPACK_IMPORTED_MODULE_3___default()(this.props, nextProps);
+      return !react_fast_compare__WEBPACK_IMPORTED_MODULE_2___default()(this.props, nextProps);
     };
 
     HelmetWrapper.prototype.mapNestedChildrenToProps = function mapNestedChildrenToProps(child, nestedChildren) {
@@ -2148,7 +2145,7 @@ var Helmet = function Helmet(Component) {
       var _this2 = this;
 
       var arrayTypeChildren = {};
-      react__WEBPACK_IMPORTED_MODULE_4___default.a.Children.forEach(children, function (child) {
+      react__WEBPACK_IMPORTED_MODULE_3___default.a.Children.forEach(children, function (child) {
         if (!child || !child.props) {
           return;
         }
@@ -2199,7 +2196,7 @@ var Helmet = function Helmet(Component) {
         newProps = this.mapChildrenToProps(children, newProps);
       }
 
-      return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(Component, newProps);
+      return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, newProps);
     };
 
     createClass(HelmetWrapper, null, [{
@@ -2231,23 +2228,23 @@ var Helmet = function Helmet(Component) {
       }
     }]);
     return HelmetWrapper;
-  }(react__WEBPACK_IMPORTED_MODULE_4___default.a.Component), _class.propTypes = {
-    base: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
-    bodyAttributes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
-    children: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.node), prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.node]),
-    defaultTitle: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-    defer: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
-    encodeSpecialCharacters: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
-    htmlAttributes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
-    link: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object),
-    meta: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object),
-    noscript: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object),
-    onChangeClientState: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
-    script: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object),
-    style: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object),
-    title: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-    titleAttributes: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
-    titleTemplate: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string
+  }(react__WEBPACK_IMPORTED_MODULE_3___default.a.Component), _class.propTypes = {
+    base: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.object,
+    bodyAttributes: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.object,
+    children: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.node), prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.node]),
+    defaultTitle: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
+    defer: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.bool,
+    encodeSpecialCharacters: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.bool,
+    htmlAttributes: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.object,
+    link: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.object),
+    meta: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.object),
+    noscript: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.object),
+    onChangeClientState: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.func,
+    script: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.object),
+    style: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.object),
+    title: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
+    titleAttributes: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.object,
+    titleTemplate: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string
   }, _class.defaultProps = {
     defer: true,
     encodeSpecialCharacters: true
@@ -2279,7 +2276,7 @@ var NullComponent = function NullComponent() {
   return null;
 };
 
-var HelmetSideEffects = react_side_effect__WEBPACK_IMPORTED_MODULE_2___default()(reducePropsToState, handleClientStateChange, mapStateOnServer)(NullComponent);
+var HelmetSideEffects = react_side_effect__WEBPACK_IMPORTED_MODULE_1___default()(reducePropsToState, handleClientStateChange, mapStateOnServer)(NullComponent);
 var HelmetExport = Helmet(HelmetSideEffects);
 HelmetExport.renderStatic = HelmetExport.rewind;
 /* unused harmony default export */ var _unused_webpack_default_export = (HelmetExport);
@@ -2289,4 +2286,4 @@ HelmetExport.renderStatic = HelmetExport.rewind;
 /***/ })
 
 }]);
-//# sourceMappingURL=component---src-pages-index-tsx-d65333f90074b77cb49c.js.map
+//# sourceMappingURL=component---src-pages-index-tsx-81935bc807a3d1f123f4.js.map

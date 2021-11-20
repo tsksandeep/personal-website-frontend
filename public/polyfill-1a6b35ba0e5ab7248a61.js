@@ -18,34 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby_legacy_polyfills__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(gatsby_legacy_polyfills__WEBPACK_IMPORTED_MODULE_0__);
 if(false){}
 
-/***/ }),
-
-/***/ "yLpj":
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
 /***/ })
 
-},[["WVtH",4]]]);
-//# sourceMappingURL=polyfill-ba73533c7e695f8aa8ad.js.map
+},[["WVtH",3,0]]]);
+//# sourceMappingURL=polyfill-1a6b35ba0e5ab7248a61.js.map
