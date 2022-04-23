@@ -14,9 +14,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-favicon`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        logo: "./static/fav.png",
+        name: `GatsbyJS`,
+        start_url: `/`,
+        icon: `./src/assets/img/fav.png`,
       },
     },
     {

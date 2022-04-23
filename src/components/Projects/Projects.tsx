@@ -22,8 +22,7 @@ const Projects = () => {
                     This project enables users to save torrent file contents
                     (with a maximum size of 5 GB) directly to the cloud and
                     download them quickly without worrying about seeds. <br />{" "}
-                    <br /> Tech Stack: React, Go, Python, DynamoDB, RDS
-                    PostgreSQL
+                    <br /> Tech Stack: React, Go, Python, DynamoDB, PostgreSQL
                   </h4>
                   <div className="project-creators">
                     <img
