@@ -27,5 +27,8 @@
     "start": "gatsby clean && mkdir public && cp -a static/. public/ && gatsby develop -H 0.0.0.0 -p 8000 -o",
     "build": "gatsby clean && mkdir public && cp -a static/. public/ && gatsby build --no-uglify",
     "serve": "gatsby serve"
+  },
+  "engines": {
+    "node": "16.10.0"
   }
 }
