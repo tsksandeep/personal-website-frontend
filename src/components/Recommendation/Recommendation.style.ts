@@ -2,7 +2,7 @@ import { css } from "emotion";
 
 export const RecommendationComponentStyle = () => css`
   font-family: "Roboto", sans-serif;
-  padding: 150px 0;
+  padding: 100px 0;
 
   .recommendation-heading {
     font-size: 2rem;

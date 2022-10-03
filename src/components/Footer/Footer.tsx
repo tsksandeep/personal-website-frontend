@@ -199,7 +199,7 @@ const Footer = () => {
               <div className="row">
                 <div className="col-md-6">
                   <div id="footer-copyrights">
-                    <p>Copyrights &copy; 2021 All rights reserved by Sandeep</p>
+                    <p>Copyrights &copy; 2022 All rights reserved by Sandeep</p>
                   </div>
                 </div>
                 <div className="col-md-6">

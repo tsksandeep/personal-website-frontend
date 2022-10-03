@@ -1,6 +1,7 @@
 import React from "react";
 import siva from "../../assets/img/siva.jpg";
 import ajith from "../../assets/img/ajith.jpeg";
+import fx from "../../assets/img/fx.jpeg";
 import { RecommendationComponentStyle } from "./Recommendation.style";
 
 const Recommendation = () => {
@@ -14,6 +15,29 @@ const Recommendation = () => {
             </h2>
           </div>
           <div className="row people">
+            <div className="col-lg-12 col-md-12 item">
+              <div className="box recommendation-box gradient">
+                <p className="description">
+                  Sandeep has a real passion for his work. During his time with
+                  CargoAi, he accomplished many achievements. He started working
+                  with us on our crawlers. He then built our new website and put
+                  in place the basis of our track and trace system.
+                </p>
+              </div>
+              <div className="author recommendation-author">
+                <img
+                  className="rounded-circle recommendation-author-circle"
+                  src={fx}
+                  alt="fx.jpeg"
+                ></img>
+                <h5 className="recommendation-author-name">
+                  Francois Xavier-Gsell
+                </h5>
+                <p className="recommendation-author-title">
+                  Chief Technology Officer at CargoAi
+                </p>
+              </div>
+            </div>
             <div className="col-lg-12 col-md-12 item">
               <div className="box recommendation-box gradient">
                 <p className="description">

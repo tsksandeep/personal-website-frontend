@@ -24,7 +24,7 @@ const Education = () => {
               </div>
               <p className="role-description">
                 •{" "}
-                <span style={{ letterSpacing: "0.7px" }} className="bold">
+                <span className="bold">
                   Coursework
                 </span>
                 : Networking, FPGA Programming, Digital Electronics, Digital
@@ -43,7 +43,7 @@ const Education = () => {
               </div>
               <p className="role-description">
                 •{" "}
-                <span style={{ letterSpacing: "0.7px" }} className="bold">
+                <span className="bold">
                   Coursework
                 </span>
                 : Biology, Maths, Physics, Chemistry.

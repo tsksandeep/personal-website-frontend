@@ -38,12 +38,12 @@ export const FooterComponentStyle = () => css`
     padding-top: 35px;
   }
 
-  #name,
-  #email,
-  #message {
+  #form-name,
+  #form-email,
+  #form-message {
     border: #189efe 1px solid;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   #custom-response {

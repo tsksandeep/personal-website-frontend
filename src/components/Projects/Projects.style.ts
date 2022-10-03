@@ -2,7 +2,7 @@ import { css } from "emotion";
 
 export const ProjectsComponentStyle = () => css`
   font-family: "Roboto", sans-serif;
-  padding: 150px 0 200px 0;
+  padding: 100px 0;
 
   .projects-heading {
     font-size: 2rem;

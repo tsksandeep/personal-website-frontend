@@ -2,7 +2,7 @@ import { css } from "emotion";
 
 export const ExperienceComponentStyle = () => css`
   font-family: "Roboto", sans-serif;
-  padding: 150px 0;
+  padding: 150px 0 200px 0;
 
   .work-experience {
     margin: 0 !important;
@@ -24,6 +24,7 @@ export const ExperienceComponentStyle = () => css`
 
   .role-description {
     text-align: left;
+    line-height: 25px;
   }
 
   .bold {
