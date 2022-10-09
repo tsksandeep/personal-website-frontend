@@ -1,8 +1,8 @@
 import { css } from "emotion";
 
 export const ExperienceComponentStyle = () => css`
-  font-family: "Roboto", sans-serif;
-  padding: 150px 0 200px 0;
+  font-family: "Consolas", sans-serif;
+  padding: 100px 0 150px 0;
 
   .work-experience {
     margin: 0 !important;
@@ -10,11 +10,11 @@ export const ExperienceComponentStyle = () => css`
   }
 
   .experience-heading {
-    font-weight: 400 !important;
+    font-weight: 600 !important;
   }
 
   .role {
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     text-align: left;
   }
 
@@ -24,6 +24,7 @@ export const ExperienceComponentStyle = () => css`
 
   .role-description {
     text-align: left;
+    font-weight: 400;
     line-height: 25px;
   }
 

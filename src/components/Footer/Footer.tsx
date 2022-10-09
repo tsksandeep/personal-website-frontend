@@ -197,12 +197,15 @@ const Footer = () => {
           <div id="footer-bottom" className="section-margin">
             <div className="container">
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-5">
                   <div id="footer-copyrights">
-                    <p>Copyrights &copy; 2022 All rights reserved by Sandeep</p>
+                    <p>
+                      Copyrights &copy; {new Date().getFullYear()} All rights
+                      reserved by Sandeep
+                    </p>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-7">
                   <div id="footer-menu">
                     <ul className="footer-menu-items">
                       <li>

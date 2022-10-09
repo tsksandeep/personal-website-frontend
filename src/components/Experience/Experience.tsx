@@ -21,14 +21,21 @@ const Experience = () => {
                 </div>
               </div>
               <p className="role-description">
-                • <span className="bold">Hobnob</span>
-                : Worked in the development of Hobnob Topics that enable the
+                • Worked in the development of Hobnob Topics that enable the
                 users to join and hobnob on the topic (E.g., Sports, Technology,
                 etc.,) they like.
-                <br />• <span className="bold">Intros</span>
-                : Worked in the development of Intros that enables new joiners
-                in a company to effectively schedule a meeting with their
-                colleagues and break the silo. <br />
+                <br />• Worked in the development of Intros that enables new
+                joiners in a company to effectively schedule a meeting with
+                their colleagues and break the silo.
+                <br />• Implemented OAuth Flow (Google and Microsoft) for the
+                application.
+                <br />• Developed Slack and MS Teams extensions for the
+                application.
+                <br />• Worked on adding ICS attachments in meeting schedule
+                emails by following iMIP best practices.
+                <br />• Introduced CloudFormation to the team and used to it
+                speed up the deployment process.
+                <br />
               </p>
             </div>
             <div className="item">
@@ -42,29 +49,27 @@ const Experience = () => {
                 </div>
               </div>
               <p className="role-description">
-                • <span className="bold">Subscription Platform</span>
-                : Architected and built a subscription platform for all the
-                services offered by CargoAi. Integrated with RapidAPI to
-                effortlessly subscribe and use the API.
-                <br />• <span className="bold">Track and Trace</span>
-                : Designed and developed an extensible end-to-end Track & Trace
-                service for several major Airlines (Air France, British Airways,
-                Etihad, Finnair, etc.) integrated with our application. 1000’s
-                of cargo forwarders use this service for day-to-day tracking of
-                their shipments. <br />•{" "}
-                <span className="bold">Carbon Emission Calculator</span>
-                : Designed and developed a 99% accurate carbon emission
-                calculator service for air cargo shipments transported with
-                various carriers. Both airlines and forwarders use this service
-                extensively to calculate carbon emission for shipments and
-                transport it eco-friendly.
-                <br />• <span className="bold">Flight Schedule</span>:
-                Implemented flight schedule service to get real-time schedules
-                of all cargo airlines with the market rate. Helped forwarders to
-                choose the best cost-effective carrier for their shipment.{" "}
-                <br />• <span className="bold">Website</span>: Designed and
-                developed the company’s website with responsive design and
-                excellent search engine optimization using GatsbyJS.
+                • Developed an extensible end-to-end Track & Trace microservice
+                for several major Airlines (Air France, British Airways, Etihad,
+                Finnair, etc.) integrated with our application. 1000s of cargo
+                forwarders use this service for the day-to-day tracking of their
+                shipments.
+                <br />• Implemented Carbon emission calculator plugin for track
+                and trace service based on IATA (International Air Transport
+                Association) standard for calculating carbon emissions.
+                <br />• Optimized Flight schedule microservice and reduced its
+                API response time.
+                <br />• Rewrote Notification microservice with decoupled
+                architecture using well-defined interfaces.
+                <br />• Worked in dockerizing crawler service to run selenium
+                with headless chrome in AWS Lambda.
+                <br />• Implemented an IP tracker module to track the number of
+                requests for various services.
+                <br />• Integrated Track and trace and Flight schedule APIs with
+                RapidAPI to effortlessly subscribe and use the API.
+                <br />• Designed and developed the company’s website with
+                responsive design and excellent search engine optimization
+                <br />
               </p>
             </div>
             <div className="item">
@@ -78,18 +83,26 @@ const Experience = () => {
                 </div>
               </div>
               <p className="role-description">
-                • <span className="bold">XP 4.0</span>
-                : Worked in the development of DCI certified next-generation
-                digital cinema server that enables movie playback in more than
-                4500 screens around the world. <br />•{" "}
-                <span className="bold">Automation Controller</span>
-                : Worked in the development of Automation Controller, which
-                automates around 90% of the manual tasks done when playing
-                movies in theatres. It can be easily integrated with theatre
-                management system for much more automation.
-                <br />• <span className="bold">Distributor Asset Manager</span>:
-                Designed and developed distributor asset management service
-                which helps distributor’s to manage their assets in the cloud.
+                • Developed OTA (Over the Air) update feature for the playback
+                servers installed in 4000+ theatres.
+                <br />• Develop a module to detect USB drives plugged into the
+                playback server, list all the asset packages (DCPs), and detach
+                them.
+                <br />• Wrote a library for DCP construction from media assets.
+                <br />• Developed media player features (play, pause, stop,
+                forward, and backward) for the playback server which interacts
+                with media streamer device (Raspberry Pi) to execute the
+                operations using gRPC.
+                <br />• Worked in the development of an Automation Controller
+                module that interacts with TMS (Theatre Management System) APIs
+                to automatically schedule movies and advertisements,
+                increase/decrease volume, and turn on/off lights on multiple
+                screens.
+                <br />• Cross-compiled Go code (with custom c bindings) against
+                Yocto Linux x86 architecture.
+                <br />• Customized fonts and cursors of X Window System (X11) in
+                the playback server.
+                <br />
               </p>
             </div>
             <div className="item">
@@ -103,13 +116,11 @@ const Experience = () => {
                 </div>
               </div>
               <p className="role-description">
-                • <span className="bold">iTunes Publisher</span>
-                : Developed an internal iTunes publisher tool that restructures
+                • Developed an internal iTunes publisher tool that restructures
                 and publishes digital cinema contents to iTunes. <br />•
-                <span className="bold"> HDD health monitor</span>: Developed an
-                HDD health monitor service that monitors the health of the hard
-                disk drives currently in use and sends the periodic reports in
-                slack.
+                Developed an HDD health monitor service that monitors the health
+                of the hard disk drives currently in use and sends the periodic
+                reports in slack.
               </p>
             </div>
           </div>

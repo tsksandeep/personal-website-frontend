@@ -1,8 +1,8 @@
 import { css } from "emotion";
 
 export const EducationComponentStyle = () => css`
-  font-family: "Roboto", sans-serif;
-  padding: 100px 0;
+  font-family: "Consolas", sans-serif;
+  padding: 100px 0 0 0;
 
   .education {
     margin: 0 !important;
@@ -10,11 +10,11 @@ export const EducationComponentStyle = () => css`
   }
 
   .education-heading {
-    font-weight: 400 !important;
+    font-weight: 600 !important;
   }
 
   .role {
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     text-align: left;
   }
 
@@ -24,6 +24,7 @@ export const EducationComponentStyle = () => css`
 
   .role-description {
     text-align: left;
+    font-weight: 400;
   }
 
   .bold {

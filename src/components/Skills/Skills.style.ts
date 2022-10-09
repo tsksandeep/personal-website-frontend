@@ -1,7 +1,7 @@
 import { css } from "emotion";
 
 export const SkillsComponentStyle = () => css`
-  font-family: "Roboto", sans-serif;
+  font-family: "Consolas", sans-serif;
   padding: 100px 0;
 
   .heading {

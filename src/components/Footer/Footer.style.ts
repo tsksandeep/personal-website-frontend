@@ -8,7 +8,7 @@ export const FooterComponentStyle = () => css`
     box-shadow: none !important;
   }
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Consolas", sans-serif;
   padding-top: 100px;
 
   .contact-heading {

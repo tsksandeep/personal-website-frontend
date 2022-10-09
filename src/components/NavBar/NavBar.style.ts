@@ -9,7 +9,7 @@ export const NavBarComponentStyle = () => css`
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
   }
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Consolas", sans-serif;
   font-size: large;
   padding: 10px !important;
 
