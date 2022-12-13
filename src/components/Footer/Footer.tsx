@@ -12,19 +12,6 @@ import Button from "react-bootstrap/Button";
 import { FooterComponentStyle } from "./Footer.style";
 
 const Footer = () => {
-  const downloadResume = async (e) => {
-    e.preventDefault();
-    fetch("/api/v1/download/resume").then((response) => {
-      response.blob().then((blob) => {
-        let url = window.URL.createObjectURL(blob);
-        let a = document.createElement("a");
-        a.href = url;
-        a.download = "sandeep_resume.pdf";
-        a.click();
-      });
-    });
-  };
-
   const handleFormSubmit = async (e) => {
     function sleep(ms) {
       return new Promise((resolve) => setTimeout(resolve, ms));
@@ -148,14 +135,15 @@ const Footer = () => {
                         </a>
                       </li>
                     </ul>
-                    <Button
+                    <a
+                      href="https://drive.google.com/file/d/1k-c8HjKt9GZPr13LM29DM5daSw7Tlaz8/view?usp=share_link"
                       className="btn btn-primary btn-resume"
-                      variant="primary"
                       type="submit"
-                      onClick={downloadResume}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       DOWNLOAD RESUME
-                    </Button>
+                    </a>
                   </div>
                 </div>
               </div>

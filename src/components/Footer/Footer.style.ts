@@ -42,8 +42,9 @@ export const FooterComponentStyle = () => css`
   #form-email,
   #form-message {
     border: #189efe 1px solid;
-    color: white;
+    color: #189efe;
     margin-bottom: 15px;
+    caret-color: #000;
   }
 
   #custom-response {
