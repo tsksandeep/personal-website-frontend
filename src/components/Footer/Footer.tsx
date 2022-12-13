@@ -59,8 +59,12 @@ const Footer = () => {
       message: message,
     };
 
-    const response = await fetch("/api/v1/contact", {
+    const response = await fetch("https://submit-form.com/jtsnSuDO", {
       method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
       body: JSON.stringify(body),
     });
 
