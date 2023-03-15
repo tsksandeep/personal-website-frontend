@@ -2,6 +2,7 @@ import React from "react";
 import siva from "../../assets/img/siva.jpg";
 import ajith from "../../assets/img/ajith.jpeg";
 import fx from "../../assets/img/fx.jpeg";
+import user from "../../assets/img/user.png";
 import { RecommendationComponentStyle } from "./Recommendation.style";
 
 const Recommendation = () => {
@@ -15,6 +16,39 @@ const Recommendation = () => {
             </h2>
           </div>
           <div className="row people">
+            <div className="col-lg-12 col-md-12 item">
+              <div className="box recommendation-box gradient">
+                <p className="description">
+                  Sandeep one of the best engineers I have worked with. We had a
+                  very complex full stack project and he understood the
+                  requirements very quickly. Even though the requirements were
+                  vague he was able to bring in clarity during implementation.
+                  Some of his strong areas are - Clean design, Test driven
+                  development, Neatly written and manageable code. This made our
+                  transition to next version very easy (even after he finished
+                  the project) because the code he wrote was future proof so new
+                  developers were able to understand the code easily and
+                  contribute very quickly. <br /> <br /> He also shines as a great leader.
+                  During our project he pulled in like minded developers, put
+                  together a plan for each one of them to parallelly progress.
+                  He made sure everyone is aligned with the project and executed
+                  it successfully. I wish him all the best!!
+                </p>
+              </div>
+              <div className="author recommendation-author">
+                <img
+                  className="rounded-circle recommendation-author-circle"
+                  src={user}
+                  alt="user.png"
+                ></img>
+                <h5 className="recommendation-author-name">
+                  Manoharan Kuppusamy
+                </h5>
+                <p className="recommendation-author-title">
+                  Principal Software Engineer, Microsoft
+                </p>
+              </div>
+            </div>
             <div className="col-lg-12 col-md-12 item">
               <div className="box recommendation-box gradient">
                 <p className="description">

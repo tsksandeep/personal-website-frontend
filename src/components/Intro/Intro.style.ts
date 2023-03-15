@@ -12,8 +12,20 @@ export const IntroComponentStyle = () => css`
   }
 
   .about-me {
-    margin: 50px 0;
+    margin: 50px 0 30px 0;
     font-size: 24px;
+  }
+
+  .about-intro-heading {
+    font-size: 30px;
+  }
+
+  .about-intro {
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
   }
 
   .avatar-name {
