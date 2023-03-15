@@ -19,9 +19,9 @@ const HomePage = () => {
     <>
       <Metatags
         title="Sandeep - Website"
-        description="Hello! I am Sandeep Kumar. I work as a full stack developer. I have passion towards Web and Systems development."
+        description="Hello! I am Sandeep Kumar. I am a software developer with over 4 years of experience in creating software solutions for clients worldwide. My expertise lies in designing databases and developing applications using cutting-edge technologies. Throughout the course of my professional trajectory within the digital realm, I have acquired a profound comprehension and exceptional proficiency that greatly surpasses industry standards."
         type="website"
-        url="https://www.tsksandeep.com/"
+        url="https://sandeep.app/"
         image={MetaImg}
       />
       <NavBar />
